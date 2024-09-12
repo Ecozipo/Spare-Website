@@ -6,6 +6,7 @@ import Navbar from "./screen/Navbar/Navbar";
 import About from "./screen/About/About";
 import Application from "./screen/Application/Application";
 import Modules from "./screen/Modules/Modules";
+import Team from "./screen/Team/Team";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <About />
       <Application />
       <Modules />
+      <Team />
     </div>
   );
 }

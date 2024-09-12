@@ -61,7 +61,7 @@
 }
 
 .Text-bottom-left {
-  margin-top: 30px;
+  margin-top: 60px;
   width: 30%;
 }
 
@@ -89,5 +89,5 @@ p {
   margin: 0;
   color: #0cde92;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 40px;
 }
