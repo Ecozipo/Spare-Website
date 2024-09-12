@@ -1,0 +1,93 @@
+.App-modules {
+  background-color: white;
+  margin-top: 50px;
+  min-height: 100vh;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  gap: 0px;
+}
+
+.image-modules {
+  margin-top: 25px;
+  height: 55%;
+  width: 55%;
+}
+
+.Text-top-modules {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+}
+
+.Text-bottom-modules {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Overview {
+  font-size: 15px;
+  color: #0cde92;
+  font-weight: 700;
+}
+
+.Text-simple {
+  font-size: 12px;
+  color: #2e2e2e;
+  font-weight: 200;
+}
+
+.Text-top-left {
+  width: 50%;
+}
+
+.Text-top-left p:nth-child(2) {
+  margin-top: 15px;
+}
+
+.Text-top-left p:nth-child(3) {
+  margin-top: 30px;
+}
+
+.Text-top-right {
+  width: 50%;
+  margin-right: 55px;
+  margin-top: 125px;
+}
+
+.Text-bottom-left {
+  margin-top: 30px;
+  width: 30%;
+}
+
+.Text-bottom-right {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 95px;
+}
+
+.Text-bottom-right h3,
+p {
+  margin: 0;
+}
+
+.Text-bottom-right h3 {
+  margin: 0;
+  font-size: 80px;
+  letter-spacing: 5px;
+  color: #2e2e2e;
+}
+
+.Text-bottom-right p {
+  margin: 0;
+  color: #0cde92;
+  font-weight: 500;
+  font-size: 30px;
+}
