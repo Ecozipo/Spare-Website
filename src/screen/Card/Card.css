@@ -1,0 +1,25 @@
+/* Card.css */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-text {
+  margin-top: 10px;
+}
+
+.card-text p {
+  margin: 5px 0;
+}

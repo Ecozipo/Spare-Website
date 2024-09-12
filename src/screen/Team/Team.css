@@ -5,7 +5,7 @@
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: black;
-  gap: 150px;
+  gap: 50px;
 }
 
 .Text-team {
@@ -15,7 +15,81 @@
 
 .Text-team h3 {
   margin: 0;
-  font-size: 60px;
+  font-size: 70px;
   letter-spacing: 5px;
   color: #2e2e2e;
+}
+
+.card-liste {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  position: relative;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  background-color: #0cde92;
+  padding: 80px;
+  color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: calc(33.333% - 30px);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.Card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.carousel-controls {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 300px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.carousel-button {
+  background-color: #0cde92;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.carousel-button:hover {
+  background-color: #0bce85;
+}
+
+.carousel-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  margin-top: 350px;
+}
+
+.back {
+  position: absolute;
+  left: 0;
+  margin-top: 350px;
 }
