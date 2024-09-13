@@ -1,5 +1,15 @@
 .App {
   overflow-x: hidden;
+  font-family: "CustomFont", sans-serif;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+.fontstyle {
+  font-family: "CustomFont", sans-serif;
 }
 
 .App-header {
@@ -14,8 +24,8 @@
 .Text {
   position: relative;
   z-index: 1;
-  margin-left: 100px;
-  margin-top: 100px;
+  margin-left: 70px;
+  margin-top: 125px;
 }
 
 .Text h1,
@@ -28,6 +38,7 @@
   font-size: calc(150px + 2vmin);
   color: white;
   letter-spacing: 10px;
+  font-weight: bold;
 }
 
 .Text p {
@@ -184,9 +195,9 @@ h3 {
   }
 
   .Text h1 {
-    font-size: calc(80px + 2vmin);
+    font-size: calc(75px + 2vmin);
     color: white;
-    letter-spacing: 8px;
+    letter-spacing: 2px;
   }
 
   .Text p {
@@ -204,7 +215,7 @@ h3 {
 
   .App-footer {
     position: relative;
-    height: 80vh;
+    height: 100vh;
     background-color: white;
     font-size: calc(10px + 2vmin);
     overflow: hidden;
@@ -218,7 +229,7 @@ h3 {
 
   .Text-contact h3 {
     margin: 0;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 5px;
     color: #2e2e2e;
   }
@@ -231,7 +242,7 @@ h3 {
   }
 
   .Text-bottom h1 {
-    font-size: calc(70px + 2vmin);
+    font-size: calc(60px + 2vmin);
     color: white;
     letter-spacing: 12px;
   }
@@ -256,11 +267,34 @@ h3 {
     flex-direction: column;
     z-index: 1;
     left: 0;
-    margin-top: 42git 0px;
+    margin-top: 375px;
     margin-left: 25px;
     color: white;
     font-size: 13px;
     gap: 10px;
     font-weight: 600;
+    width: 80%;
+  }
+
+  .Liste-contact p:nth-child(1) {
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .Liste-contact p:nth-child(2) {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .Liste-contact p:nth-child(3) {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  .Liste-contact p:nth-child(4) {
+    font-size: 10px;
+  }
+  .Liste-contact p:nth-child(5) {
+    font-size: 10px;
   }
 }

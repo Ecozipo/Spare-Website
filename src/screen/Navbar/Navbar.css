@@ -58,13 +58,13 @@
   .navbar-links {
     list-style-type: none;
     display: flex;
-    gap: 25px;
+    gap: 15px;
   }
 
   .navbar-links a {
     text-decoration: none;
     color: #ffffff;
     font-size: calc(6px + 1vmin);
-    font-weight: 700;
+    font-weight: 600;
   }
 }

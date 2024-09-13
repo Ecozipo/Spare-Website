@@ -32,15 +32,15 @@
 }
 
 .Overview {
-  font-size: 15px;
+  font-size: 17px;
   color: #0cde92;
   font-weight: 700;
 }
 
 .Text-simple {
-  font-size: 12px;
+  font-size: 14px;
   color: #2e2e2e;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .Text-top-left {

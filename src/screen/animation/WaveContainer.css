@@ -37,3 +37,15 @@
     width: 250%;
   }
 }
+
+@media (min-width: 501px) and (max-width: 1300px) {
+  .WaveContainer {
+    position: absolute;
+    width: 105%;
+    height: 80%;
+  }
+
+  .wave-wrap {
+    width: 250%;
+  }
+}

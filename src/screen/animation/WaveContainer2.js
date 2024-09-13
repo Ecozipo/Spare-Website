@@ -4,7 +4,7 @@ import "./WaveContainer2.css";
 const WaveContainer2 = () => {
   return (
     <div className="WaveContainer2">
-      <div className="wave-wrap">
+      <div className="wave-wrap2">
         <svg
           viewBox="0 0 1440 320"
           xmlns="http://www.w3.org/2000/svg"
