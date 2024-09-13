@@ -23,8 +23,8 @@ function App() {
         <img className="image-overlay2" src={welcome2} alt="Rantsa" />
         <Navbar />
         <div className="Text">
-          <h1 className="fontstyle">SPARE</h1>
-          <p>Control to save your Energy</p>
+          <h1 className="fontstyle">SPARE oui</h1>
+          <p>Control to save your Energy test</p>
           <h3>
             Solution for Power Allocation <br /> and Resource Efficiency
           </h3>
