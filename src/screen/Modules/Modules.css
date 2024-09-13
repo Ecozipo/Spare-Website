@@ -63,9 +63,19 @@
   margin-top: 125px;
 }
 
+.Text-top-right p:nth-child(2) {
+  margin-top: 10px;
+  width: 100%;
+}
+
 .Text-bottom-left {
   margin-top: 60px;
   width: 30%;
+}
+
+.Text-bottom-left p:nth-child(3) {
+  margin-top: 10px;
+  width: 100%;
 }
 
 .Text-bottom-leftr {
@@ -180,5 +190,9 @@ p {
     flex-direction: column;
     margin-top: 20px;
     width: 90%;
+  }
+
+  .Text-bottom-leftr p:nth-child(2) {
+    margin-top: 10px;
   }
 }

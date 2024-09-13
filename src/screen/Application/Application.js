@@ -14,26 +14,28 @@ const Application = () => {
       <img className="imagelight" src={light} alt="About App and Modules" />
       <div className="Text-Application">
         <h4>Mobile APP</h4>
-        <p>OVERVIEW</p>
+        <p>FEATURES</p>
 
         <p>
-          Vous cherchez une personne qui s'occupe des réseaux sociaux et qui
-          fait des miracles Vous cherchez une personne qui s'occupe des réseaux
-          sociaux et qui fait des miracles Vous cherchez une personne qui
-          s'occupe des réseaux sociaux et qui fait des miracles Vous cherchez
-          une personne qui s'occupe des réseaux sociaux et qui fait des miracles
-          ?{" "}
+          L'application mobile SPARE est au cœur de la gestion durable des
+          ressources, offrant une interface intuitive pour surveiller en temps
+          réel la consommation d'électricité, d'eau. Grâce à des modules
+          connectés, l'application fournit des graphiques interactifs et des
+          alertes instantanées pour aider les utilisateurs à détecter les
+          anomalies et ajuster leur consommation de manière proactive.{" "}
         </p>
 
         <p>
-          Vous cherchez une personne qui s'occupe des réseaux sociaux et qui se
-          passe de la tête Vous cherchez une personne qui s'occupe des réseaux
+          Les fonctionnalités de contrôle à distance permettent également
+          d'ajuster les appareils connectés directement depuis l'application,
+          facilitant ainsi la gestion des ressources au quotidien.
         </p>
 
-        <p>OVERVIEW</p>
+        <p>EXPERIENCE UTILISATEUR</p>
         <p>
-          Vous cherchez une personne qui s'occupe des réseaux sociaux et qui se
-          passe de la tête Vous cherchez une personne qui s'occupe des réseaux
+          Une expérience utilisateur fluide avec une interface intuitive qui
+          permet de surveiller, contrôler et optimiser facilement la
+          consommation des ressources
         </p>
         <img className="imagedater" src={date} alt="About App and Modules" />
         <img className="imagejauger" src={jauge} alt="About App and Modules" />

@@ -7,19 +7,18 @@ const Modules = () => {
     <div className="App-modules">
       <div className="Text-top-modules">
         <div className="Text-top-left">
-          <p className="Overview">OVERVIEW</p>
+          <p className="Overview">DISPOSITIF INTELLIGENT</p>
           <p className="Text-simple ">
-            Vous cherchez une personne qui s'occupe des réseaux sociaux et qui
-            fait des miracles Vous cherchez une personne qui s'occupe des
-            réseaux sociaux et qui fait des miracles Vous cherchez une personne
-            qui s'occupe des réseaux sociaux et qui fait des miracles Vous
-            cherchez une personne qui s'occupe des réseaux sociaux et qui fait
-            des miracles{" "}
+            Les modules connectés de SPARE sont conçus pour mesurer avec
+            précision la consommation d'électricité, d'eau. Ces dispositifs
+            surveillent en temps réel l'utilisation des ressources et détectent
+            les anomalies, envoyant des alertes instantanées à l'application
+            mobile.{" "}
           </p>
           <p className="Text-simple ">
-            Vous cherchez une personne qui s'occupe des réseaux sociaux et qui
-            se passe de la tête Vous cherchez une personne qui s'occupe des
-            réseaux
+            Assurent une gestion proactive en fournissant des données claires et
+            détaillées, permettant ainsi aux utilisateurs d'ajuster leur
+            consommation et de réduire les gaspillages.
           </p>
         </div>
 
@@ -29,27 +28,22 @@ const Modules = () => {
           alt="About App and Modules"
         />
         <div className="Text-top-right">
-          <p className="Overview">OVERVIEW</p>
+          <p className="Overview">CONTROLE A DISTANCE</p>
           <p className="Text-simple ">
-            Vous cherchez une personne qui s'occupe des réseaux sociaux et qui
-            fait des miracles Vous cherchez une personne qui s'occupe des
-            réseaux sociaux et qui fait des miracles Vous cherchez une personne
-            qui s'occupe des réseaux sociaux et qui fait des miracles Vous
-            cherchez une personne qui s'occupe des réseaux sociaux et qui fait
-            des miracles{" "}
+            Cette fonctionnalité offre aux utilisateurs la possibilité d'activer
+            ou de désactiver les appareils connectés, comme les lumières, en
+            fonction de leur présence ou d'autres critères.{" "}
           </p>
         </div>
       </div>
       <div className="Text-bottom-modules">
         <div className="Text-bottom-left">
-          <p className="Overview">OVERVIEW</p>
+          <p className="Overview">CONNECTED</p>
+          <p className="Text-simple ">Mesurent et optimisent les ressources.</p>
           <p className="Text-simple ">
-            Vous cherchez une personne qui s'occupe des réseaux sociaux et qui
-          </p>
-          <p className="Text-simple ">
-            Vous cherchez une personne qui s'occupe des réseaux sociaux et qui
-            se passe de la tête Vous cherchez une personne qui s'occupe des
-            réseaux
+            Les modules connectés de SPARE permettent un contrôle à distance des
+            appareils, facilitant la gestion des ressources directement depuis
+            l'application mobile.
           </p>
         </div>
 
@@ -59,14 +53,11 @@ const Modules = () => {
         </div>
 
         <div className="Text-bottom-leftr">
-          <p className="Overview">OVERVIEW</p>
+          <p className="Overview">CONTROLE A DISTANCE</p>
           <p className="Text-simple ">
-            Vous cherchez une personne qui s'occupe des réseaux sociaux et qui
-          </p>
-          <p className="Text-simple ">
-            Vous cherchez une personne qui s'occupe des réseaux sociaux et qui
-            se passe de la tête Vous cherchez une personne qui s'occupe des
-            réseaux
+            Cette fonctionnalité offre aux utilisateurs la possibilité d'activer
+            ou de désactiver les appareils connectés, comme les lumières, en
+            fonction de leur présence ou d'autres critères.
           </p>
         </div>
       </div>

@@ -24,9 +24,9 @@ function App() {
         <Navbar />
         <div className="Text">
           <h1>SPARE</h1>
-          <p>Control to save</p>
+          <p>Control to save your Energy</p>
           <h3>
-            Manage your Energy with our <br /> Application & Modules
+            Solution for Power Allocation <br /> and Resource Efficiency
           </h3>
         </div>
       </header>
@@ -48,6 +48,16 @@ function App() {
           <img className="image-down2" src={down2} alt="Rantsa" />
         </div>
         <div className="Liste-contact">
+          <p>
+            SPARE exerce un impact profond en diminuant l'empreinte carbone
+            grâce à une gestion raffinée de l'énergie et de l'eau.
+          </p>
+          <p>
+            En optimisant les pratiques de consommation et en encourageant des
+            comportements durables, le projet favorise une utilisation plus
+            responsable des ressources naturelles, tout en générant des
+            économies significatives pour les foyers.
+          </p>
           <p>Sapre.osc2024@gmail.com</p>
           <p>+261 34 26 347 26</p>
           <p>www.SpareOsc.com</p>

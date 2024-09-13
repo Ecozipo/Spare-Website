@@ -6,23 +6,23 @@ const About = () => {
   return (
     <div className="App-body">
       <img className="image-about" src={about} alt="About App and Modules" />
-
       <div className="Text-about">
         <p>OVERVIEW</p>
         <h4>About SPARE</h4>
         <p>
-          Vous cherchez une personne qui s'occupe des réseaux sociaux et qui
-          fait des miracles Vous cherchez une personne qui s'occupe des réseaux
-          sociaux et qui fait des miracles Vous cherchez une personne qui
-          s'occupe des réseaux sociaux et qui fait des miracles Vous cherchez
-          une personne qui s'occupe des réseaux sociaux et qui fait des miracles
-          ?{" "}
+          SPARE résout la gestion inefficace des ressources dans les foyers en
+          proposant une application mobile connectée à des modules mesurant la
+          consommation d’électricité, d’eau, et la gestion des déchets. Grâce à
+          des graphiques interactifs et des conseils personnalisés par IA,
+          l’application aide les utilisateurs à optimiser leur consommation tout
+          en contrôlant à distance leurs appareils.{" "}
         </p>
 
-        <p>OVERVIEW</p>
+        <p>ENVIRONMENT IMPACT</p>
         <p>
-          Vous cherchez une personne qui s'occupe des réseaux sociaux et qui se
-          passe de la tête Vous cherchez une personne qui s'occupe des réseaux
+          SPARE contribue à la réduction de l'empreinte carbone en optimisant la
+          consommation d'énergie et d'eau tout en encourageant des pratiques
+          durables à travers une technologie intégrée.
         </p>
       </div>
       <img className="image-about2" src={about} alt="About App and Modules" />
