@@ -57,6 +57,18 @@ const Modules = () => {
           <h3>MODULES</h3>
           <p>CONNECTED</p>
         </div>
+
+        <div className="Text-bottom-leftr">
+          <p className="Overview">OVERVIEW</p>
+          <p className="Text-simple ">
+            Vous cherchez une personne qui s'occupe des réseaux sociaux et qui
+          </p>
+          <p className="Text-simple ">
+            Vous cherchez une personne qui s'occupe des réseaux sociaux et qui
+            se passe de la tête Vous cherchez une personne qui s'occupe des
+            réseaux
+          </p>
+        </div>
       </div>
     </div>
   );

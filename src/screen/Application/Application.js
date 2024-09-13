@@ -35,6 +35,9 @@ const Application = () => {
           Vous cherchez une personne qui s'occupe des réseaux sociaux et qui se
           passe de la tête Vous cherchez une personne qui s'occupe des réseaux
         </p>
+        <img className="imagedater" src={date} alt="About App and Modules" />
+        <img className="imagejauger" src={jauge} alt="About App and Modules" />
+        <img className="imagelightr" src={light} alt="About App and Modules" />
         <img
           className="image-download1"
           src={down1}
@@ -44,6 +47,11 @@ const Application = () => {
       <img
         className="image-application"
         src={App}
+        alt="About App and Modules"
+      />
+      <img
+        className="image-download1r"
+        src={down1}
         alt="About App and Modules"
       />
     </div>

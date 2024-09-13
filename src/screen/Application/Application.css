@@ -98,3 +98,117 @@
   height: 30%;
   width: 13%;
 }
+
+.imagedater {
+  display: none;
+}
+
+.imagejauger {
+  display: none;
+}
+
+.imagelightr {
+  display: none;
+}
+
+.image-download1r {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .Application-body {
+    background-color: white;
+    margin-right: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    gap: 15px;
+  }
+
+  .Text-Application {
+    margin-top: 2px;
+    margin-left: 30px;
+  }
+
+  .Text-Application h4 {
+    margin: 0;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #2e2e2e;
+  }
+
+  .Text-Application p:nth-of-type(2) {
+    margin-right: 1px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #2e2e2e;
+    font-weight: 200;
+  }
+
+  .Text-Application p:nth-of-type(4) {
+    margin-top: 35px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    color: #0cde92;
+    font-weight: 700;
+  }
+
+  .imagedate {
+    display: none;
+  }
+
+  .imagejauge {
+    display: none;
+  }
+
+  .imagelight {
+    display: none;
+  }
+
+  .image-download1 {
+    display: none;
+  }
+
+  .image-application {
+    margin-left: 95px;
+    height: 50%;
+    width: 50%;
+  }
+
+  .imagedater {
+    position: absolute;
+    display: flex;
+    margin-top: 35px;
+    right: 70px;
+    height: 13%;
+    width: 33%;
+  }
+
+  .imagejauger {
+    position: absolute;
+    display: flex;
+    margin-top: 175px;
+    right: 240px;
+    height: 15%;
+    width: 28%;
+  }
+
+  .imagelightr {
+    position: absolute;
+    display: flex;
+    margin-top: 250px;
+    right: 40px;
+    height: 15%;
+    width: 28%;
+  }
+
+  .image-download1r {
+    display: flex;
+    left: 0;
+    margin-left: 35%;
+    height: 10%;
+    width: 30%;
+  }
+}
