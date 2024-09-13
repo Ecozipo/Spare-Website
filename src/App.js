@@ -38,7 +38,7 @@ function App() {
         <WaveContainer2 />
         <div className="Text-contact">
           <h3>LET'S TALK</h3>
-          <p>Let's Impact</p>
+          <p>Impact Together</p>
         </div>
         <div className="Text-bottom">
           <h1>SPARE</h1>

@@ -9,8 +9,7 @@
 }
 
 .Text-team {
-  margin-top: 30px;
-  margin-left: 50px;
+  margin-left: 85px;
 }
 
 .Text-team h3 {
@@ -23,7 +22,7 @@
 .card-liste {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 85%;
   position: relative;
 }
 
@@ -63,7 +62,7 @@
 }
 
 .carousel-button {
-  background-color: #0cde92;
+  background-color: #121212;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -74,7 +73,7 @@
 }
 
 .carousel-button:hover {
-  background-color: #0bce85;
+  background-color: #121212;
 }
 
 .carousel-button:disabled {
@@ -92,4 +91,61 @@
   position: absolute;
   left: 0;
   margin-top: 350px;
+}
+
+@media (max-width: 500px) {
+  .App-Team {
+    background-color: white;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    gap: 50px;
+  }
+
+  .Text-team {
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+  .Text-team h3 {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 2.5px;
+    color: #2e2e2e;
+  }
+
+  .Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    background-color: #0cde92;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    min-width: 150px;
+    max-width: calc(33.333% - 30px);
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .card-liste {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    position: relative;
+  }
+
+  .next {
+    position: absolute;
+    right: 0;
+    margin-top: 240px;
+  }
+
+  .back {
+    position: absolute;
+    left: 0;
+    margin-top: 240px;
+  }
 }

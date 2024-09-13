@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Team.css";
 
 const Team = () => {
@@ -12,34 +12,46 @@ const Team = () => {
     { image: "Image7", name: "Nom7", description: "Description7" },
   ]);
 
-  const [visibleCards, setVisibleCards] = useState(cards.slice(0, 3));
+  const [visibleCards, setVisibleCards] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [cardsPerPage, setCardsPerPage] = useState(3); // Default to 3
+
+  // Update cards per page based on window size
+  useEffect(() => {
+    const updateCardsPerPage = () => {
+      if (window.innerWidth <= 500) {
+        setCardsPerPage(2); // Show 2 cards on smaller screens
+      } else {
+        setCardsPerPage(3); // Default is 3 cards
+      }
+    };
+
+    updateCardsPerPage(); // Initial check
+    window.addEventListener("resize", updateCardsPerPage);
+
+    return () => {
+      window.removeEventListener("resize", updateCardsPerPage);
+    };
+  }, []);
+
+  useEffect(() => {
+    setVisibleCards(cards.slice(currentIndex, currentIndex + cardsPerPage));
+  }, [cardsPerPage, currentIndex, cards]);
 
   const handleNext = () => {
-    const nextIndex = Math.min(currentIndex + 3, cards.length);
-    setVisibleCards(cards.slice(nextIndex, nextIndex + 3));
+    const nextIndex = Math.min(currentIndex + cardsPerPage, cards.length);
+    setVisibleCards(cards.slice(nextIndex, nextIndex + cardsPerPage));
     setCurrentIndex(nextIndex);
   };
 
   const handlePrev = () => {
-    const prevIndex = Math.max(currentIndex - 3, 0);
-    setVisibleCards(cards.slice(prevIndex, prevIndex + 3));
+    const prevIndex = Math.max(currentIndex - cardsPerPage, 0);
+    setVisibleCards(cards.slice(prevIndex, prevIndex + cardsPerPage));
     setCurrentIndex(prevIndex);
   };
 
   return (
     <div className="App-Team">
-      <button
-        className="carousel-button back"
-        onClick={handlePrev}
-        disabled={currentIndex === 0}
-      ></button>
-      <button
-        className="carousel-button next"
-        onClick={handleNext}
-        disabled={currentIndex >= cards.length - 3}
-      ></button>
-
       <div className="Text-team">
         <h3>SPARE Team</h3>
         <p className="Overview">OVERVIEW</p>
@@ -55,6 +67,16 @@ const Team = () => {
           ))}
         </div>
       </div>
+      <button
+        className="carousel-button back"
+        onClick={handlePrev}
+        disabled={currentIndex === 0}
+      ></button>
+      <button
+        className="carousel-button next"
+        onClick={handleNext}
+        disabled={currentIndex >= cards.length - cardsPerPage}
+      ></button>
     </div>
   );
 };
