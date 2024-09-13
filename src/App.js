@@ -3,6 +3,7 @@ import "./App.css";
 import WaveContainer from "./screen/animation/WaveContainer";
 import WaveContainer2 from "./screen/animation/WaveContainer2";
 import welcome from "./assets/w1.png";
+import welcome2 from "./assets/w2.png";
 import Navbar from "./screen/Navbar/Navbar";
 import About from "./screen/About/About";
 import Application from "./screen/Application/Application";
@@ -15,10 +16,11 @@ import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <header className="App-header">
         <WaveContainer />
         <img className="image-overlay" src={welcome} alt="Rantsa" />
+        <img className="image-overlay2" src={welcome2} alt="Rantsa" />
         <Navbar />
         <div className="Text">
           <h1>SPARE</h1>
@@ -36,7 +38,7 @@ function App() {
         <WaveContainer2 />
         <div className="Text-contact">
           <h3>LET'S TALK</h3>
-          <p>Contact us!</p>
+          <p>Let's Impact</p>
         </div>
         <div className="Text-bottom">
           <h1>SPARE</h1>

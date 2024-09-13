@@ -15,6 +15,10 @@
   width: 50%;
 }
 
+.image-about2 {
+  display: none;
+}
+
 .Text-about {
   margin-top: 80px;
 }
@@ -56,4 +60,58 @@
   font-size: 12px;
   color: #2e2e2e;
   font-weight: 200;
+}
+
+@media (max-width: 500px) {
+  .App-body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 30px;
+  }
+
+  .image-about2 {
+    display: flex;
+    height: 125%;
+    width: 95%;
+  }
+
+  .image-about {
+    display: none;
+  }
+
+  .Text-about {
+    margin-top: 0px;
+  }
+
+  .Text-about p:nth-of-type(2) {
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #2e2e2e;
+    font-weight: 200;
+  }
+
+  .Text-about h4 {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: #2e2e2e;
+  }
+
+  .Text-about p:nth-of-type(3) {
+    margin-top: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    color: #0cde92;
+    font-weight: 700;
+  }
+
+  .Text-about p:nth-of-type(4) {
+    margin-right: 25px;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #2e2e2e;
+    font-weight: 200;
+  }
 }

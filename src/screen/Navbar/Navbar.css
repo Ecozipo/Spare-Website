@@ -37,3 +37,34 @@
 .navbar-links a:hover {
   color: #15ad36;
 }
+
+@media (max-width: 500px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 87%;
+    left: 5px;
+  }
+
+  .navbar-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+  }
+
+  .navbar-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: calc(6px + 1vmin);
+    font-weight: 700;
+  }
+}

@@ -25,3 +25,15 @@
 .wave-wrap {
   animation: wave-animation 10s linear infinite;
 }
+
+@media (max-width: 500px) {
+  .WaveContainer {
+    position: absolute;
+    width: 360%;
+    height: 75%;
+  }
+
+  .wave-wrap {
+    width: 250%;
+  }
+}

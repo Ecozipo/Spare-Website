@@ -1,3 +1,7 @@
+.App {
+  overflow-x: hidden;
+}
+
 .App-header {
   position: relative;
   height: 120vh;
@@ -34,6 +38,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   letter-spacing: 3px;
+  margin-top: 15px;
 }
 
 .image-overlay {
@@ -41,6 +46,10 @@
   right: 0;
   height: 95%;
   width: 95%;
+}
+
+.image-overlay2 {
+  display: none;
 }
 
 .App-footer {
@@ -118,4 +127,55 @@ h3 {
   font-size: 21px;
   gap: 10px;
   font-weight: 600;
+}
+
+@media (max-width: 500px) {
+  .App-header {
+    height: 100vh;
+  }
+  .image-overlay {
+    display: none;
+  }
+
+  .image-overlay2 {
+    display: flex;
+    position: absolute;
+    margin-top: 285px;
+    margin-left: 80px;
+
+    height: 65%;
+    width: 105%;
+  }
+
+  .Text {
+    position: relative;
+    z-index: 1;
+    margin-left: 20px;
+    margin-top: 75px;
+  }
+
+  .Text h1,
+  .Text p,
+  .Text h6 {
+    margin: 0;
+  }
+
+  .Text h1 {
+    font-size: calc(80px + 2vmin);
+    color: white;
+    letter-spacing: 12px;
+  }
+
+  .Text p {
+    letter-spacing: 2.5px;
+    font-size: calc(6px + 2vmin);
+  }
+
+  .Text h3 {
+    font-size: calc(6px + 2vmin);
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 15px;
+    font-weight: 800;
+  }
 }
