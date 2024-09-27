@@ -36,3 +36,27 @@
     width: 250%;
   }
 }
+
+@media (min-width: 450px) and (max-width: 889px) {
+  .WaveContainer2 {
+    position: absolute;
+    width: 180%;
+    height: 80%;
+  }
+
+  .wave-wrap2 {
+    width: 250%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1350px) {
+  .WaveContainer2 {
+    position: absolute;
+    width: 150%;
+    height: 100%;
+  }
+
+  .wave-wrap2 {
+    width: 250%;
+  }
+}
