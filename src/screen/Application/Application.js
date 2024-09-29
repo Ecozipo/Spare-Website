@@ -8,7 +8,7 @@ import light from "../../assets/light.png";
 
 const Application = () => {
   return (
-    <div className="Application-body">
+    <div id="project" className="Application-body">
       <img className="imagedate" src={date} alt="About App and Modules" />
       <img className="imagejauge" src={jauge} alt="About App and Modules" />
       <img className="imagelight" src={light} alt="About App and Modules" />

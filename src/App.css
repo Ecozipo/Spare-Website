@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   overflow-x: hidden;
   font-family: "CustomFont", sans-serif;

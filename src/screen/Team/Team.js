@@ -34,14 +34,24 @@ const Team = () => {
       description:
         "En tant que développeur back-end chez SPARE, je suis responsable de la gestion des serveurs et de l’architecture qui supportent l’application et les modules connectés. Mon rôle est de garantir des échanges de données sécurisés et performants entre les utilisateurs et notre système.",
     },
-    { image: image5, name: "Rominah", description: "Description2" },
+    {
+      image: image5,
+      name: "Rominah",
+      description:
+        "En tant que responsable du management et de la communication chez SPARE, Mon rôle est de promouvoir notre vision et d'optimiser la gestion de nos ressources humaines pour garantir la réussite de nos objectifs.",
+    },
     {
       image: image6,
       name: "Ranja",
       description:
         "Je supervise la gestion des finances et développe des stratégies budgétaires pour assurer la stabilité et la croissance à long terme du projet. Mon rôle inclut  la gestion des ressources financières et la recherche de fonds pour soutenir notre expansion tout en garantissant une gestion saine et durable.",
     },
-    { image: image7, name: "Hony", description: "Description3" },
+    {
+      image: image7,
+      name: "Hiony",
+      description:
+        "En tant que responsable marketing chez SPARE, je développe et mets en œuvre des stratégies de marketing visant à accroître la visibilité de nos solutions. Mon rôle est d'analyser les tendances du marché et de créer des campagnes efficaces pour attirer de nouveaux utilisateurs et partenaires, tout en renforçant l'image de notre projet.",
+    },
   ]);
 
   const [visibleCards, setVisibleCards] = useState([]);

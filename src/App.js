@@ -34,7 +34,7 @@ function App() {
       <Application />
       <Modules />
       <Team />
-      <footer className="App-footer">
+      <footer id="contact" className="App-footer">
         <WaveContainer2 />
         <div className="Text-contact">
           <h3>LET'S TALK</h3>
